@@ -5,8 +5,10 @@ body {
 h1 {
   font-family: "Roboto", sans-serif;
 }
+
 p {
   font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
 }
 
 .text-align {
@@ -16,6 +18,7 @@ p {
 .container {
   width: 80%;
   height: 100vh;
+  text-align: center;
 }
 
 .store-buttons {
@@ -34,7 +37,11 @@ p {
 }
 
 .logo {
-  width: 20%;
+  display: none;
+}
+
+.phone {
+  width: 60%;
 }
 
 @media (min-width: 992px) {
@@ -49,5 +56,11 @@ p {
 
   .store-buttons {
     justify-content: start;
+  }
+
+  .logo {
+    display: flex;
+    width: 15%;
+    margin-bottom: 20px;
   }
 }

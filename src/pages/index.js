@@ -14,11 +14,13 @@ const IndexPage = () => (
     <div className="container text-align">
       <div className="row h-100">
         <div className="col-lg-6 my-auto">
-          <Logo />
-          <h1>Cryto Tracker</h1>
+          <div>
+            <Logo />
+          </div>
+          <h1>Crypto Tracker</h1>
           <p>
-            Conocé las distintas cotizaciones de la divisa norteamericana en la
-            Argentina de manera simple, elegante y efectiva.
+            Track different crypto currencies prices in USD. Bitcoin, Ethereum,
+            Litecoin, Stellar and more!
           </p>
           <div className="store-buttons">
             <ImagePlayStore />
@@ -27,10 +29,8 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="col-lg-6 my-auto d-none d-lg-block d-xl-block">
-          <div className="d-none d-lg-block d-xl-block">
-            <Image />
-          </div>
+        <div className="col-lg-6 my-auto d-sm-none d-lg-flex  ">
+          <Image />
         </div>
       </div>
     </div>
