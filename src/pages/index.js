@@ -22,8 +22,6 @@ const IndexPage = () => (
           </p>
           <div className="store-buttons">
             <ImagePlayStore />
-            {/* <ImageAppStore /> */}
-
             <div>
               <ImageAppStore />
             </div>

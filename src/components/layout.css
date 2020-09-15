@@ -17,12 +17,13 @@ body {
 }
 
 .apple-button {
-  margin-top: 10px;
-  width: 118px;
+  margin-top: 55px;
+  width: 150px;
+  margin-left: 15px;
 }
 
 .google-button {
-  width: 150px;
+  width: 160px;
 }
 
 .logo {
