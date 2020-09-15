@@ -1,22 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import "../components/layout.css"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  <>
+    <SEO title="Crypto Tracker" />
+
+    <div className="container vertical-center">
+      <div className="row">
+        <div className="col-lg-6">
+          <img src="" alt="Logo" />
+          <h1>Cryto Tracker</h1>
+          <p>
+            Conocé las distintas cotizaciones de la divisa norteamericana en la
+            Argentina de manera simple, elegante y efectiva.
+          </p>
+          <div>
+            <button>App Store</button>
+            <button>Play Store</button>
+          </div>
+        </div>
+        <div className="col-6">
+          <img src="" alt="Logo" />
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  </>
 )
 
 export default IndexPage
