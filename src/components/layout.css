@@ -1,7 +1,23 @@
-.vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
+body {
+  background-image: url("https://ambito-dolar.app/static/a95694ac93c3d5acfa89967c7b762f20/30cf3/seamless-background.webp");
+}
 
-  display: flex;
-  align-items: center;
+.text-align {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+}
+
+@media (min-width: 992px) {
+  .text-align {
+    text-align: left;
+  }
+
+  .container {
+    width: 80%;
+    height: 100vh;
+  }
 }

@@ -9,9 +9,9 @@ const IndexPage = () => (
   <>
     <SEO title="Crypto Tracker" />
 
-    <div className="container vertical-center">
-      <div className="row">
-        <div className="col-lg-6">
+    <div className="container text-align">
+      <div className="row h-100">
+        <div className="col-lg-6 my-auto">
           <img src="" alt="Logo" />
           <h1>Cryto Tracker</h1>
           <p>
@@ -23,8 +23,10 @@ const IndexPage = () => (
             <button>Play Store</button>
           </div>
         </div>
-        <div className="col-6">
-          <img src="" alt="Logo" />
+        <div className="col-lg-6 my-auto d-none d-lg-block .d-xl-block">
+          <div className="d-none d-lg-block .d-xl-block">
+            <Image />
+          </div>
         </div>
       </div>
     </div>
