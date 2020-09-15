@@ -2,6 +2,13 @@ body {
   background-image: url("https://ambito-dolar.app/static/a95694ac93c3d5acfa89967c7b762f20/30cf3/seamless-background.webp");
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+
 .text-align {
   text-align: center;
 }

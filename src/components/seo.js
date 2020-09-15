@@ -75,6 +75,10 @@ function SEO({ description, lang, meta, title }) {
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
         crossorigin="anonymous"
       />
+      <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
     </Helmet>
   )
 }
