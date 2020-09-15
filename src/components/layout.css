@@ -11,6 +11,24 @@ body {
   height: 100vh;
 }
 
+.store-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.apple-button {
+  margin-top: 10px;
+  width: 118px;
+}
+
+.google-button {
+  width: 150px;
+}
+
+.logo {
+  width: 20%;
+}
+
 @media (min-width: 992px) {
   .text-align {
     text-align: left;
@@ -19,5 +37,9 @@ body {
   .container {
     width: 80%;
     height: 100vh;
+  }
+
+  .store-buttons {
+    justify-content: start;
   }
 }
