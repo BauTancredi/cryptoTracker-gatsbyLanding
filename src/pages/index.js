@@ -29,7 +29,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="col-lg-6 my-auto d-sm-none d-lg-flex  ">
+        <div className="col-lg-6 my-auto d-none d-lg-flex  ">
           <Image />
         </div>
       </div>
